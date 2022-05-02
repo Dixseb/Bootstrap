@@ -1,0 +1,26 @@
+body {
+        overflow-x: hidden;
+    }
+
+
+#navbarNavDropdown{
+   
+    flex-grow: 0;
+}
+
+
+.navbar-expand-lg{
+    justify-content: space-between;
+}
+
+.card{
+    box-shadow: 2px 2px 2px black;
+        width:20rem;
+        height:20rem
+}
+
+@media (min-width:992px) {
+    .card {
+        height:15rem;
+    }
+}
